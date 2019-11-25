@@ -9,7 +9,7 @@
   },
   "main": "node_modules/node-red-gaia/red/red.js",
   "scripts": {
-    "start": "node $NODE_OPTIONS node_modules/node-red-gaia/red.js -v --settings /exentriq/$DEST/settings.js $FLOWS"
+    "start": "node $NODE_OPTIONS node_modules/node-red/red.js -v --settings /exentriq/$DEST/settings.js $FLOWS"
   },
   "contributors": [
     {
@@ -17,7 +17,7 @@
     }
   ],
   "dependencies": {
-    "node-red": "git+https://github.com/ExentriqLtd/Exentriq-GAIA.node-red2.git",
+    "node-red-gaia": "git+https://github.com/ExentriqLtd/Exentriq-GAIA.node-red2.git",
     "node-red-contrib-avro": "git+https://github.com/ExentriqLtd/Exentriq-GAIA.node-red-contrib-avro.git",
     "node-red-contrib-kafka-node": "git+https://github.com/ExentriqLtd/Exentriq-GAIA.node-red-contrib-kafka-node.git",
     "node-red-contrib-file-upload": "git+https://github.com/ExentriqLtd/Exentriq-GAIA.node-red-contrib-file-upload.git",
