@@ -8,9 +8,9 @@
  - [x]  httpin clickabe full service path
  - [x]  OWNER GROUP!
  - [ ]  httpinmultipart
- - [ ]  safe clipboard import
- - [ ]  agent name, back button, breadcrumbs
- - [ ]  removed legcy menu items
+ - [x]  safe clipboard import
+ - [x]  agent name, back button, breadcrumbs
+ - [x]  removed legcy menu items
  - [ ]  csv fixings: raw data and quote option
 
  # News
