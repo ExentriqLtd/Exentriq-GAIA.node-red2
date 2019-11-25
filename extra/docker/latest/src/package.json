@@ -1,15 +1,15 @@
 {
   "name": "node-red-gaia-docker",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A visual tool for wiring the Internet of Things",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ExentriqLtd/Exentriq-GAIA.node-red.git"
+    "url": "https://github.com/ExentriqLtd/Exentriq-GAIA.node-red2.git"
   },
   "main": "node_modules/node-red-gaia/red/red.js",
   "scripts": {
-    "start": "node $NODE_OPTIONS packages/node_modules/node-red-gaia/red.js -v --settings /exentriq/$DEST/settings.js $FLOWS"
+    "start": "node $NODE_OPTIONS node_modules/node-red-gaia/red.js -v --settings /exentriq/$DEST/settings.js $FLOWS"
   },
   "contributors": [
     {
@@ -17,7 +17,7 @@
     }
   ],
   "dependencies": {
-    "node-red-gaia": "git+https://github.com/ExentriqLtd/Exentriq-GAIA.node-red.git",
+    "node-red-gaia": "git+https://github.com/ExentriqLtd/Exentriq-GAIA.node-red2.git",
     "node-red-contrib-avro": "git+https://github.com/ExentriqLtd/Exentriq-GAIA.node-red-contrib-avro.git",
     "node-red-contrib-kafka-node": "git+https://github.com/ExentriqLtd/Exentriq-GAIA.node-red-contrib-kafka-node.git",
     "node-red-contrib-file-upload": "git+https://github.com/ExentriqLtd/Exentriq-GAIA.node-red-contrib-file-upload.git",
