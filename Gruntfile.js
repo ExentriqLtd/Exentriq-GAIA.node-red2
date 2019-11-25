@@ -402,13 +402,13 @@ module.exports = function(grunt) {
                 cmd: "pack",
                 cwd: "<%= paths.dist %>/modules"
             },
-            'node-red': { options: { args: [__dirname+'/packages/node_modules/node-red'] } },
-            '@node-red/editor-api': { options: { args: [__dirname+'/packages/node_modules/@node-red/editor-api'] } },
-            '@node-red/editor-client': { options: { args: [__dirname+'/packages/node_modules/@node-red/editor-client'] } },
-            '@node-red/nodes': { options: { args: [__dirname+'/packages/node_modules/@node-red/nodes'] } },
-            '@node-red/registry': { options: { args: [__dirname+'/packages/node_modules/@node-red/registry'] } },
-            '@node-red/runtime': { options: { args: [__dirname+'/packages/node_modules/@node-red/runtime'] } },
-            '@node-red/util': { options: { args: [__dirname+'/packages/node_modules/@node-red/util'] } }
+            'node-red-gaia': { options: { args: [__dirname+'/packages/node_modules/node-red'] } },
+            '@node-red-gaia/editor-api': { options: { args: [__dirname+'/packages/node_modules/@node-red/editor-api'] } },
+            '@node-red-gaia/editor-client': { options: { args: [__dirname+'/packages/node_modules/@node-red/editor-client'] } },
+            '@node-red-gaia/nodes': { options: { args: [__dirname+'/packages/node_modules/@node-red/nodes'] } },
+            '@node-red-gaia/registry': { options: { args: [__dirname+'/packages/node_modules/@node-red/registry'] } },
+            '@node-red-gaia/runtime': { options: { args: [__dirname+'/packages/node_modules/@node-red/runtime'] } },
+            '@node-red-gaia/util': { options: { args: [__dirname+'/packages/node_modules/@node-red/util'] } }
 
 
         },
