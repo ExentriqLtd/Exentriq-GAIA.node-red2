@@ -30,8 +30,10 @@ COPY src/prod/exentriq-authentication.js /exentriq/prod/
 
 RUN npm install
 
-RUN mv /usr/src/node-red/node_modules/node-red-gaia/packages/node_modules/node-red /usr/src/node-red/node_modules/node-red
-RUN mv /usr/src/node-red/node_modules/node-red-gaia/packages/node_modules/@node-red /usr/src/node-red/node_modules/@node-red
+RUN git clone git@github.com:ExentriqLtd/Exentriq-GAIA.node-red2.git node-red-gaia
+WORKDIR /usr/src/node-red/node-red-gaia
+RUN npm install
+RUN npm run build
 
 # User configuration directory volume
 EXPOSE 1880
