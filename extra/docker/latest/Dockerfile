@@ -24,13 +24,13 @@ USER node-red
 # package.json contains Node-RED NPM module and node dependencies
 COPY src/package.json /usr/src/node-red/
 COPY src/stage/settings.js /exentriq/stage/
-COPY src/stage/exentriq-authentication.js /exentriq/stage/
+COPY src/stage/exentriq-authentication /exentriq/stage/
 COPY src/prod/settings.js /exentriq/prod/
-COPY src/prod/exentriq-authentication.js /exentriq/prod/
+COPY src/prod/exentriq-authentication /exentriq/prod/
 
 RUN npm install
 
-RUN git clone git@github.com:ExentriqLtd/Exentriq-GAIA.node-red2.git node-red-gaia
+RUN git clone https://github.com/ExentriqLtd/Exentriq-GAIA.node-red2.git node-red-gaia
 WORKDIR /usr/src/node-red/node-red-gaia
 RUN npm install
 RUN npm run build
