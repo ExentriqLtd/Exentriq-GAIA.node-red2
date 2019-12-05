@@ -1,4 +1,4 @@
-var exentriqServicePath = 'http://www.exentriq.com/JSON-RPC';
+var exentriqServicePath = 'https://www.exentriq.com/JSON-RPC';
 var when = require("when");
 var rest = require('rest');
 require('when/es6-shim/Promise');
