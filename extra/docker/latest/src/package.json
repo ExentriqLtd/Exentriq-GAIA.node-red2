@@ -29,7 +29,7 @@
     "node-red-contrib-google":"*",
     "node-red-contrib-scheduler":"*",
     "node-red-contrib-zip":"*",
-    "node-red-node-mysql":"*",
+    "node-red-node-mysql":"git+https://github.com/ExentriqLtd/Exentriq-GAIA.node-red-contrib-mysql.git",
     "node-red-node-sqlite":"*",
     "node-red-contrib-splitter":"*",
     "node-red-contrib-elasticsearchcdb":"*",
