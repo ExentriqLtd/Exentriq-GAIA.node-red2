@@ -8,6 +8,7 @@ RUN mkdir -p /usr/src/node-red
 RUN mkdir /exentriq
 RUN mkdir /exentriq/prod
 RUN mkdir /exentriq/stage
+RUN mkdir /exentriq/sec_prod
 
 WORKDIR /usr/src/node-red
 
@@ -27,6 +28,8 @@ COPY src/stage/settings.js /exentriq/stage/
 COPY src/stage/exentriq-authentication /exentriq/stage/exentriq-authentication
 COPY src/prod/settings.js /exentriq/prod/
 COPY src/prod/exentriq-authentication /exentriq/prod/exentriq-authentication
+COPY src/sec_prod/settings.js /exentriq/sec_prod/
+COPY src/sec_prod/exentriq-authentication /exentriq/sec_prod/exentriq-authentication
 
 RUN npm install
 
