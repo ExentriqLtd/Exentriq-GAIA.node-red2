@@ -45,6 +45,18 @@ If you want to run the latest code from git, here's how to get started:
 
         npm start
 
+## Custom Theme Layout
+
+Added in @node-red/editor-client/src/sass/style.scss -> @import "customEdits"
+Added file in @node-red/editor-client/src/sass/ -> customEdits.scss
+
+Top of customEdits.scss you can edit the main theme color by editing Variables
+
+To Edit Node Color go to -> @node-red/nodes/core/ 
+Inside the html you can set the color.
+
+List of colors are set at https://docs.google.com/spreadsheets/d/1WmFA6GntLi_8tc9F34VFWkavlBEQMIjl3CnNLR8tZF0/edit#gid=0
+
 ## Contributing
 
 Before raising a pull-request, please read our
