@@ -1,6 +1,6 @@
 {
   "name": "node-red-gaia-docker",
-  "version": "2.0.1",
+  "version": "2.0.3",
   "description": "A visual tool for wiring the Internet of Things",
   "license": "Apache-2.0",
   "repository": {
