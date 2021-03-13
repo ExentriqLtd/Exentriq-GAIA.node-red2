@@ -1,3 +1,11 @@
+## 2.0.2
+
+* Add Exentriq Mind node
+
+### 2.0.0
+
+* First GAIA version
+
 #### 1.0.2: Maintenance Release
 
 Runtime
