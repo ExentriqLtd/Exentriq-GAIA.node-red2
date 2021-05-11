@@ -1,3 +1,11 @@
+## 2.0.4
+
+* Update Exentriq Mind node
+
+## 2.0.3
+
+* Bug fixing
+
 ## 2.0.2
 
 * Add Exentriq Mind node
