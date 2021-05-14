@@ -1,3 +1,7 @@
+## 2.0.7
+
+* Update Exentriq Mind node 1.0.6
+
 ## 2.0.6
 
 * Update Exentriq Mind node 1.0.5
