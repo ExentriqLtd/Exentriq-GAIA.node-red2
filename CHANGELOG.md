@@ -1,3 +1,7 @@
+## 2.0.9
+
+* Switch to official node-red-node-email node
+
 ## 2.0.8
 
 * Update Exentriq Mind node 1.0.7
