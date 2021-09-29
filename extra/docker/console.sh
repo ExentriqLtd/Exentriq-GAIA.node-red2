@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo docker exec -it gaia /bin/bash
+docker exec -it gaia /bin/bash
