@@ -1,0 +1,15 @@
+{
+  "name": "exentriq-authentication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "exentriq-authentication.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rest": "^2.0.0",
+    "when": "^3.7.8"
+  }
+}
