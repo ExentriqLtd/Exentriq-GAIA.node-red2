@@ -26,7 +26,7 @@
     "node-red-contrib-crypto-js":"*",
     "node-red-contrib-excel":"*",
     "node-red-contrib-ftp":"*",
-    "node-red-contrib-google":"*",
+    "node-red-contrib-google":"git+https://github.com/ExentriqLtd/Exentriq-GAIA.node-red-contrib-google.git",
     "node-red-contrib-scheduler":"*",
     "node-red-contrib-zip":"*",
     "node-red-node-mysql":"git+https://github.com/ExentriqLtd/Exentriq-GAIA.node-red-contrib-mysql.git",
