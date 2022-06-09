@@ -43,6 +43,8 @@
     "node-red-contrib-schema-injector": "*",
     "node-red-contrib-eml": "*",
     "pf-ingest": "git+https://github.com/ExentriqLtd/Exentriq-ART.node-red-pf-ingest",
+    "pf-sales": "git+https://github.com/ExentriqLtd/Exentriq-ART.node-red-pf-sales",
+    "pf-analysis": "git+https://github.com/ExentriqLtd/Exentriq-ART.node-red-pf-analysis",
     "ajv": "6.10.2",
     "basic-auth": "2.0.1",
     "bcryptjs": "2.4.3",
