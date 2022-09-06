@@ -27,6 +27,9 @@ RUN useradd --home-dir /usr/src/node-red --no-create-home node-red \
 # RUN npm install -g when
 # RUN npm install -g rest
 
+# Dependencies for node node-red-contrib-html-to-pdf
+RUN apt-get update && apt-get install -y libnss3 libnspr4 libatk1.0-0 libatk-bridge2.0-0 libdrm2 libxkbcommon0 libgbm1 libasound2 libatspi2.0-0
+
 USER node-red
 
 WORKDIR /exentriq/stage/exentriq-authentication
