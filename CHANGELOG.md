@@ -1,3 +1,11 @@
+## 2.0.11
+
+* node-red-node-email changed version from * to 1.18.4 due to version incompatibility
+
+## 2.0.10 (GAIA_V2 only)
+
+* Add custom fast csv node
+
 ## 2.0.9
 
 * Switch to official node-red-node-email node
