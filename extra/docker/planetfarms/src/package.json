@@ -1,6 +1,6 @@
 {
   "name": "node-red-gaia-docker",
-  "version": "2.0.9",
+  "version": "2.0.11",
   "description": "A visual tool for wiring the Internet of Things",
   "license": "Apache-2.0",
   "repository": {
@@ -21,7 +21,7 @@
     "node-red-contrib-kafka-node": "git+https://github.com/ExentriqLtd/Exentriq-GAIA.node-red-contrib-kafka-node.git",
     "node-red-contrib-file-upload": "git+https://github.com/ExentriqLtd/Exentriq-GAIA.node-red-contrib-file-upload.git",
     "node-red-contrib-http-multipart": "git+https://github.com/ExentriqLtd/Exentriq-GAIA.node-red-contrib-http-multipart.git",
-    "node-red-node-email":"*",
+    "node-red-node-email":"1.18.4",
     "node-red-contrib-cache": "*",
     "node-red-contrib-crypto-js":"*",
     "node-red-contrib-excel":"*",
@@ -45,6 +45,7 @@
     "pf-ingest": "git+https://github.com/ExentriqLtd/Exentriq-ART.node-red-pf-ingest",
     "pf-sales": "git+https://github.com/ExentriqLtd/Exentriq-ART.node-red-pf-sales",
     "pf-analysis": "git+https://github.com/ExentriqLtd/Exentriq-ART.node-red-pf-analysis",
+    "node-red-contrib-business-central-connection": "git+https://github.com/ExentriqLtd/Exentriq-GAIA.bc365",
     "ajv": "6.10.2",
     "basic-auth": "2.0.1",
     "bcryptjs": "2.4.3",

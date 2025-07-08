@@ -1,2 +1,2 @@
-docker build --no-cache -t kbm001exe.exentriq.com:5000/exentriq/planetfarms-art .
-docker push kbm001exe.exentriq.com:5000/exentriq/planetfarms-art
+docker build --no-cache -t kb-registry.exentriq.cloud:5001/exentriq/planetfarms-art .
+# docker push kb-registry.exentriq.cloud:5001/exentriq/planetfarms-art

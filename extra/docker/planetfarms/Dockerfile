@@ -1,4 +1,4 @@
-ARG NODE_VERSION=10
+ARG NODE_VERSION=10.15.1
 FROM node:${NODE_VERSION}
 
 # Home directory for Node-RED application source code.
@@ -28,7 +28,18 @@ RUN useradd --home-dir /usr/src/node-red --no-create-home node-red \
 # RUN npm install -g rest
 
 # Dependencies for node node-red-contrib-html-to-pdf
-RUN apt-get update && apt-get install -y libnss3 libnspr4 libatk1.0-0 libatk-bridge2.0-0 libdrm2 libxkbcommon0 libgbm1 libasound2 libatspi2.0-0
+COPY src/sources.list /etc/apt/sources.list
+RUN apt-get -y update
+## && apt-get install -y libnss3 libnspr4 libatk1.0-0 libatk-bridge2.0-0 libdrm2 libxkbcommon0 libgbm1 libasound2 libatspi2.0-0
+RUN apt-get install -y --allow-unauthenticated libnss3
+RUN apt-get install -y --allow-unauthenticated libnspr4
+RUN apt-get install -y --allow-unauthenticated libatk1.0-0
+RUN apt-get install -y --allow-unauthenticated libatk-bridge2.0-0
+RUN apt-get install -y --allow-unauthenticated libdrm2
+RUN apt-get install -y --allow-unauthenticated libxkbcommon0
+RUN apt-get install -y --allow-unauthenticated libgbm1
+RUN apt-get install -y --allow-unauthenticated libasound2
+RUN apt-get install -y --allow-unauthenticated libatspi2.0-0
 
 USER node-red
 
